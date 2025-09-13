@@ -1,20 +1,36 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { View } from 'react-native';
+import AppNavigator from './src/navigation/AppNavigator';
+import { AuthProvider } from './src/contexts/AuthContext';
+import { ThemeProvider } from './src/contexts/ThemeContext';
+
+import i18n, { ensureI18n } from './src/i18n/lang';
+import { I18nextProvider } from 'react-i18next';
 
 export default function App() {
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    let canceled = false;
+    (async () => {
+      try {
+        await ensureI18n(); 
+      } finally {
+        if (!canceled) setReady(true);
+      }
+    })();
+    return () => { canceled = true; };
+  }, []);
+
+  if (!ready) return <View />;
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <I18nextProvider i18n={i18n}>
+      <AuthProvider>
+        <ThemeProvider>
+          <AppNavigator />
+        </ThemeProvider>
+      </AuthProvider>
+    </I18nextProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

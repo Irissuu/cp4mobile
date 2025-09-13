@@ -1,0 +1,75 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "add": "Adicionar",
+    "backToLogin": "Voltar ao login",
+    "light": "Claro",
+    "dark": "Escuro"
+  },
+  "login": {
+    "title": "Entrar",
+    "email": "E-mail",
+    "password": "Senha",
+    "enter": "Entrar",
+    "createAccount": "Criar conta",
+    "error": "Erro no login",
+    "or": "ou"
+  },
+  "signup": {
+    "title": "Criar conta",
+    "name": "Nome",
+    "email": "E-mail",
+    "password": "Senha",
+    "confirm": "Confirmar senha",
+    "create": "Criar conta",
+    "creating": "Criando...",
+    "error": "Erro no cadastro",
+    "validateName": "Informe seu nome",
+    "validateEmail": "Informe um e-mail válido",
+    "validatePassLen": "Senha deve ter ao menos 6 caracteres",
+    "validatePassEq": "As senhas não coincidem"
+  },
+  "home": {
+    "hello": "Olá, {{name}}",
+    "noTasks": "Nenhuma tarefa por aqui.",
+    "titlePlaceholder": "Título",
+    "descPlaceholder": "Descrição (opcional)",
+    "dateLabel": "Data do projeto",
+    "logout": "Sair",
+    "validateTitle": "Informe um título",
+    "validateDate": "Defina a data do projeto",
+    "removeConfirm": "Remover \"{{title}}\"?"
+  },
+  "edit": {
+    "title": "Editar tarefa",
+    "titlePlaceholder": "Título",
+    "descPlaceholder": "Descrição",
+    "save": "Salvar",
+    "errorEmptyTitle": "Título obrigatório",
+    "errorOnSave": "Erro ao salvar"
+  },
+  "cats": {
+    "todos": "todos",
+    "trabalhos": "trabalhos",
+    "projetos": "projetos",
+    "pessoal": "pessoal",
+    "estudos": "estudos",
+    "consultas": "consultas",
+    "tarefas": "tarefas",
+    "all": "todos",
+    "jobs": "trabalhos",
+    "projects": "projetos",
+    "personal": "pessoal",
+    "study": "estudos",
+    "appointments": "consultas",
+    "tasks": "tarefas"
+  },
+  "auth": {
+    "continueWithGoogle": "Continuar com Google"
+  },
+  "task": {
+    "addDate": "Adicionar data"
+  }
+}

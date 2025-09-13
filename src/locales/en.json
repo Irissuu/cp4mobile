@@ -1,0 +1,75 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "add": "Add",
+    "backToLogin": "Back to login",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "login": {
+    "title": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "enter": "Sign in",
+    "createAccount": "Create account",
+    "error": "Login error",
+    "or": "or"
+  },
+  "signup": {
+    "title": "Create account",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirm": "Confirm password",
+    "create": "Create account",
+    "creating": "Creating...",
+    "error": "Sign up error",
+    "validateName": "Enter your name",
+    "validateEmail": "Enter a valid e-mail",
+    "validatePassLen": "Password must have at least 6 characters",
+    "validatePassEq": "Passwords do not match"
+  },
+  "home": {
+    "hello": "Hi, {{name}}",
+    "noTasks": "No tasks yet.",
+    "titlePlaceholder": "Title",
+    "descPlaceholder": "Description (optional)",
+    "dateLabel": "Project date",
+    "logout": "Log out",
+    "validateTitle": "Enter a title",
+    "validateDate": "Pick a project date",
+    "removeConfirm": "Remove \"{{title}}\"?"
+  },
+  "edit": {
+    "title": "Edit task",
+    "titlePlaceholder": "Title",
+    "descPlaceholder": "Description",
+    "save": "Save",
+    "errorEmptyTitle": "Title is required",
+    "errorOnSave": "Error saving"
+  },
+  "cats": {
+    "todos": "all",
+    "trabalhos": "jobs",
+    "projetos": "projects",
+    "pessoal": "personal",
+    "estudos": "study",
+    "consultas": "appointments",
+    "tarefas": "tasks",
+    "all": "all",
+    "jobs": "jobs",
+    "projects": "projects",
+    "personal": "personal",
+    "study": "study",
+    "appointments": "appointments",
+    "tasks": "tasks"
+  },
+  "auth": {
+    "continueWithGoogle": "Continue with Google"
+  },
+  "task": {
+    "addDate": "Add date"
+  }
+}

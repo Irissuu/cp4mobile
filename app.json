@@ -7,13 +7,15 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "scheme": "mobile",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.irisfiap.mobile"
     },
     "android": {
       "adaptiveIcon": {
@@ -21,10 +23,43 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "package": "com.irisfiap.mobile",
+      "versionCode": 1,
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "category": ["BROWSABLE", "DEFAULT"],
+          "data": [
+            {
+              "scheme": "com.googleusercontent.apps.39176336053-un3s96b4oj8josiv429v2vs34sqn55mc",
+              "path": "/oauthredirect"
+            }
+          ]
+        }
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "googleAndroidClientId": "39176336053-un3s96b4oj8josiv429v2vs34sqn55mc.apps.googleusercontent.com",
+      "googleWebClientId": "39176336053-fdlp5ui7jmg7r9vlosvteobchiplj40k.apps.googleusercontent.com",
+      "eas": {
+        "projectId": "443cfd2b-2ccc-470a-a96d-0f2435f69c62"
+      }
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-font",
+      "expo-asset",
+      "expo-web-browser"
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/443cfd2b-2ccc-470a-a96d-0f2435f69c62"
+    },
+    "owner": "irisfiap"
   }
 }
