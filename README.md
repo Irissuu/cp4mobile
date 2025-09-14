@@ -1,25 +1,49 @@
 # 📅 Aplicativo de Tarefas ⋆౨ৎ˚⟡˖ ࣪
-Aplicativo  bilíngue onde você cria sua conta e gerencia suas tarefas de maneira simples e eficaz.
+Aplicativo bilíngue onde você cria sua conta e gerencia suas tarefas de maneira simples e eficaz.
+Com suporte a autenticação, internacionalização, tema claro/escuro e gerenciamento de tarefas. O app foi desenvolvido em React Native com Expo.
 
-## 👥 Integrante
+## 👥 Integrante ⋆౨ৎ˚⟡˖ ࣪
 Iris Tavares Alves - 557728 - 2TDSPM
 
-## ⚙️ Tecnologias e Funcionalidades
+----
 
+## 🎥 Vídeo ⋆౨ৎ˚⟡˖ ࣪
+ <a href="">Vídeo</a> </br>
+
+## ⌬ Tecnologias Prinicpais
 ```text
-- i18n
-- Tema claro/escuro
-- Autenticação Firebase
-- React Native
+- React Native + Expo
+- TypeScript
+- React Navigation
+- Firebase 
+- i18next + react-i18next 
+- AsyncStorage
 ```
-## ✔️ Execução do projeto
+
+## ⌬ Funcionalidades Principais
+```text
+- Login e Cadastro de Usuários
+- Gerenciamento de Tarefas
+- Troca de idioma
+- Tema claro/escuro
+- Interface intuitiva
+```
+
+## ✔️ Execução do projeto ⋆౨ৎ˚⟡˖ ࣪
 
 ### 1. Clone o repositório
 ```text
 git clone https://github.com/Irissuu/cp4mobile.git
 ```
 
-### 2. Configure a dependências se necessário
+### 2. Instale as dependências e execute o projeto
+```text
+npm i
+npm run android
+```
+---
+
+## ⌬ Dependências Principais
 ```text
 npm install firebase
 
@@ -38,11 +62,7 @@ npx expo install react-native-screens react-native-safe-area-context react-nativ
 npx expo install @expo/vector-icons
 
 npx expo install expo-auth-session expo-web-browser expo-constants @expo/vector-icons
-```
 
-### 3. Execute o projeto
-```text
-npm run android
 ```
 
 ⋆｡𖦹 ˚ 𓇼 ˚｡⋆
