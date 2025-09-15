@@ -42,7 +42,7 @@ export default function TaskCard({
       const g = parseInt(pillBg.slice(3, 5), 16);
       const b = parseInt(pillBg.slice(5, 7), 16);
       const luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b;
-      return luminance > 180 ? '#2A2430' : '#FFFFFF';
+      return luminance > 180 ? '#755db3' : '#f8f0ff';
     })();
 
   return (
@@ -117,7 +117,7 @@ export default function TaskCard({
         <TouchableOpacity
           onPress={onDelete}
           style={{
-            backgroundColor: '#FFEBEE',
+            backgroundColor: '#f8f0ff',
             padding: 8,
             borderRadius: 10,
             borderWidth: 1,

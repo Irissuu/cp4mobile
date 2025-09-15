@@ -24,10 +24,10 @@ export default function CategoryChips({
 
   const items: ChipsValue[] = includeAll ? (['todos', ...CATEGORIES] as ChipsValue[]) : (CATEGORIES as ChipsValue[]);
 
-  const chipBg = colors.chipBg ?? '#4b3a42';
-  const chipFg = colors.chipFg ?? '#f1e5dd';
-  const chipActiveBg = colors.chipActiveBg ?? '#cfb6a8';
-  const chipActiveFg = colors.chipActiveFg ?? '#2a2430';
+  const chipBg = colors.chipBg ?? '#846ead';
+  const chipFg = colors.chipFg ?? '#f7f0ff';
+  const chipActiveBg = colors.chipActiveBg ?? '#dcc7ff';
+  const chipActiveFg = colors.chipActiveFg ?? '#3b2f66';
 
   return (
     <View style={[{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }, containerStyle]}>

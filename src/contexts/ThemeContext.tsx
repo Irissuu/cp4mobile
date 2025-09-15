@@ -12,36 +12,37 @@ export type Colors = {
 };
 
 const LIGHT: Colors = {
-  bg: '#FFEBF0',
-  card: '#FFF0F1',
-  text: '#3E3742',
-  subtext: '#6F6676',
-  input: '#FFF0F2',
-  border: '#E8DADF',
-  primary: '#8C6C77',
-  primaryText: '#FFEBF0',
+  bg: '#F8F0FF',
+  card: '#F6F0FF',
+  text: '#3B2F66',
+  subtext: '#55428C',
+  input: '#F7F0FF',
+  border: '#DCC7FF',
+  primary: '#C09EFF',
+  primaryText: '#231F2C',
   danger: '#C62828',
-  chipBg: '#EEDDE3',
-  chipFg: '#3E3742',
-  chipActiveBg: '#8C6C77',
-  chipActiveFg: '#FFEBF0',
+  chipBg: '#F0E9F8',
+  chipFg: '#3B2F66',
+  chipActiveBg: '#997CD9',
+  chipActiveFg: '#231F2C',
 };
 
 const DARK: Colors = {
-  bg: '#1B171B',
-  card: '#2C2729',
-  text: '#F8E9EB',
-  subtext: '#DCCBCF',
-  input: '#433E40',
-  border: '#5B5556',
-  primary: '#ADA0A3',
-  primaryText: '#1B171B',
+  bg: '#231F2C',
+  card: '#352E45',
+  text: '#F0E9F8',
+  subtext: '#C8B5E8',
+  input: '#483D5B',
+  border: '#61527E',
+  primary: '#C09EFF',
+  primaryText: '#231F2C',
   danger: '#E57373',
-  chipBg: '#433E40',
-  chipFg: '#F8E9EB',
-  chipActiveBg: '#ADA0A3',
-  chipActiveFg: '#1B171B',
+  chipBg: '#483D5B',
+  chipFg: '#F0E9F8',
+  chipActiveBg: '#A689DC',
+  chipActiveFg: '#231F2C',
 };
+
 
 type Ctx = { mode: Mode; colors: Colors; toggle: () => void; set: (m: Mode) => void; };
 const ThemeContext = createContext<Ctx | null>(null);

@@ -39,7 +39,7 @@ export default function Edit({
       <View style={{ flex: 1, backgroundColor: 'rgba(0,0,0,0.4)', justifyContent: 'center', padding: 20 }}>
        
         <TouchableOpacity activeOpacity={1} onPress={onClose} style={StyleSheet.absoluteFillObject} />
-        <View style={{ backgroundColor: '#f1e5dd', borderRadius: 14, padding: 16, gap: 10 }}>
+        <View style={{ backgroundColor: '#f7f0ff', borderRadius: 14, padding: 16, gap: 10 }}>
           <Text style={{ fontSize: 18, fontWeight: '700' }}>{t('edit.title')}</Text>
 
           <TextInput
@@ -48,13 +48,13 @@ export default function Edit({
             onChangeText={setTitle}
             onSubmitEditing={handleSave}
             returnKeyType="done"
-            style={{ backgroundColor: '#f1e5dd', borderRadius: 10, padding: 12, borderWidth: 1, borderColor: '#ADA0A3' }}
+            style={{ backgroundColor: '#f7f0ff', borderRadius: 10, padding: 12, borderWidth: 1, borderColor: '#dcc7ff' }}
           />
           <TextInput
             placeholder={t('edit.descPlaceholder')}
             value={note}
             onChangeText={setNote}
-            style={{ backgroundColor: '#f1e5dd', borderRadius: 10, padding: 12, borderWidth: 1, borderColor: '#ADA0A3' }}
+            style={{ backgroundColor: '#f7f0ff', borderRadius: 10, padding: 12, borderWidth: 1, borderColor: '#dcc7ff' }}
           />
 
           <View style={{ flexDirection: 'row', justifyContent: 'flex-end', gap: 10, marginTop: 6 }}>
@@ -63,9 +63,9 @@ export default function Edit({
             </TouchableOpacity>
             <TouchableOpacity
               onPress={handleSave}
-              style={{ backgroundColor: '#664E57', paddingVertical: 10, paddingHorizontal: 16, borderRadius: 10 }}
+              style={{ backgroundColor: '#997cd9', paddingVertical: 10, paddingHorizontal: 16, borderRadius: 10 }}
             >
-              <Text style={{ color: '#f1e5dd', fontWeight: '700' }}>{t('edit.save')}</Text>
+              <Text style={{ color: '#f7f0ff', fontWeight: '700' }}>{t('edit.save')}</Text>
             </TouchableOpacity>
           </View>
         </View>

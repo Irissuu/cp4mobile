@@ -12,10 +12,10 @@ export const CAT_LABELS: Record<Category, string> = {
 };
 
 export const CAT_COLORS = {
-  trabalhos: '#8C6C77',
-  projetos:  '#B3929D',
-  pessoal:   '#D9BDC5',
-  estudos:   '#664E57',
-  consultas: '#ADA0A3',
-  tarefas:   '#FFEEF2',
+  trabalhos: '#c09eff',
+  projetos:  '#dcc7ff',
+  pessoal:   '#846ead',
+  estudos:   '#a689dc',
+  consultas: '#755db3',
+  tarefas:   '#61527e',
 } as const;
